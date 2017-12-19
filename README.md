@@ -10,3 +10,4 @@ Sublime Text Setup
 6. Install DocBlockr >> for commenting
 7. Install GitGutter >> to show the status of git
 8. Install GitSavvy >> to handle git inside sublime
+9. Install emmut >> shortcut snippets
