@@ -14,3 +14,4 @@ Sublime Text Setup
 10. Install sublimelint
 11. Install jsLint
 12. Install PlainTasks >> todo plugin
+13. Install advanced new file
