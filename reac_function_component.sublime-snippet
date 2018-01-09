@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+import React from 'react';
+
+const ${TM_FILENAME/(.+)\..+|.*/$1/:name} = (${1:props}) => (
+  <div>
+    $2
+  </div>
+);
+
+export default ${TM_FILENAME/(.+)\..+|.*/$1/:name};
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>rfc</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js, source.jsx, source.ts</scope>
+  <!-- Optional: Description to show in the menu -->
+    <description>React function component</description>
+</snippet>

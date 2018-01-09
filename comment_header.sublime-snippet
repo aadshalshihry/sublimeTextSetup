@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+/*************************************
+ * Name: Roman Alshehri
+ * Data: $1
+ *
+ * Desc: $2
+ *
+ **************************************/
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>commentheader</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js, source.jsx, source.ts</scope>
+  <!-- Optional: Description to show in the menu -->
+    <description>Adding comment in head of the file</description>
+</snippet>

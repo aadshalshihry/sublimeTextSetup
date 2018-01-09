@@ -1,0 +1,28 @@
+<snippet>
+  <content><![CDATA[
+import React, {Component} from 'react';
+import PropTypes from 'prop-types';
+
+class ${TM_FILENAME/(.+)\..+|.*/$1/:name} extends Component {
+  state = {$1};
+
+  render() {
+    return (
+      <div>
+        $3
+      </div>
+    );
+  }
+}
+
+${TM_FILENAME/(.+)\..+|.*/$1/:name}.propTypes = {$2}
+
+export default ${TM_FILENAME/(.+)\..+|.*/$1/:name};
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>rcc</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js, source.jsx, source.ts</scope>
+  <!-- Optional: Description to show in the menu -->
+    <description>React class component</description>
+</snippet>
