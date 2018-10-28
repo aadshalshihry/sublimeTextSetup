@@ -19,7 +19,7 @@ cp *-macro ../
 6. Install DocBlockr >> for commenting
 7. Install GitGutter >> to show the status of git
 8. Install GitSavvy >> to handle git inside sublime
-9. Install emmut >> shortcut snippets
+9. Install emmet >> shortcut snippets
 10. Install sublimelint
 11. Install jsLint
 12. Install PlainTasks >> todo plugin
